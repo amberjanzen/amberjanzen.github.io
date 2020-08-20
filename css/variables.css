@@ -1,0 +1,19 @@
+:root {
+    --darkblue: #546868;
+    --lightblue: #86A09D;
+    --tan: #E5DDAF;
+    --lightorange: #EABC7E;
+    --burntornage: #D37748;
+    --black: #2E2E2A;
+    --white: #FFFBFC;
+    --lighttan: #F2ECD6;
+    --brickred: #834120;
+    --navy: #242D2d;
+    --eggshell: #f9f4e9;
+
+    --font-one: 'Anton', sans-serif;
+    --font-two: 'Roboto', sans-serif;
+
+    --font-three: 'Century-Gothic', sans-serif, bold; 
+    --font-four-body: 'adobe-caslon-pro,serif', normal, 'font-weight: 400' ;
+}

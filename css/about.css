@@ -1,0 +1,14 @@
+#about {
+    background: transparent;
+    border-radius: 0.5rem;
+}
+
+#me {
+    border-radius: 50%;
+
+}
+
+#aboutMe p {
+    font-family:var(--font-four-body);
+    font-size: 24px;
+}

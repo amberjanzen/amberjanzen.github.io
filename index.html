@@ -4,10 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amber Janzen Portfolio</title>
+    <!--Bootstrap CSS lINK-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Google Fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
+    <!--adobe fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/fqe0upi.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fqe0upi.css">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/bc985d7c25.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- My css link-->
     <link type="text/css" rel ="stylesheet" href ="CSS/main.css" />
 
 </head>
 <body>
+    <!--Navbar section-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" >
+    <ul class="navbar-nav" id ="nav-content">
+      <li class="nav-item">
+        <a class="nav-link" id ="Nav" href="#landing-section">home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id ="Nav" href="#about">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Nav" href="#projects-section">projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="Nav" href="#contact1">contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="nav" href="./assets/Resume_Amber Janzen_Food Systems Coordinator.pdf" target="_blank"> resume</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<!--Jumbotron-->
+<section id = "landing-section">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="display-5">hello, my name is</h2>
+          <h1 class="display-3">amber</h1>
+          <p class="lead"> aspiring web developer & UX/UI designer.</p>
+        </div>
+</section>
+
+<section id = "about">
+  <div id = "aboutMe" class= "container p-5">
+    <div class ="row">
+    <div class= "col-6">
+      <img id ="me" src=".\assets\profilepic_2.jpg" class="img-fluid" />
+    </div>
+    <div class="col-6 pl-5 pt-5 pb-5" >
+    <h1> about me.</h1>
+    <p>From urban planner to web developer, I aim to design and develop web applications that invoke meaningful interaction. </p>
+    <p> I currently live in Indianapolis with my cat and my two dogs. I enjoy hiking, spooky podcasts, watching too much tv, and geeking out about good (and bad) design.</p>
+    </div>
+    </div>
+  </div>
+</section>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<section id = "projects-section">
+<div class="grid no-gutters">
+  <h1> a little bit of my work.</h1>
+  <figure class="project">
+
+    <img src="./assets/css_panda1.PNG" alt="..."/>
+    <figcaption>
+      <div>
+        <h2>CSS Creature</h2>
+        <p>A little panda creature designed with CSS and HTML</p>
+      </div>
+      <a href="https://codepen.io/amberjanzen/pen/xxZNOEr" target="_blank">View more</a>
+    </figcaption>
+  </figure>
+  <figure class="project">
+    <img src="./assets/api_1.PNG" alt="..."/>
+    <figcaption>
+      <div>
+        <h2>Studio Ghibli API</h2>
+        <p>A simple app showcasing Studio Ghibli films designed with JavaScript, HTML, and CSS through the Ghibli APIs</p>
+      </div>
+      <a href="https://amberjanzen.github.io/API_Challenge_1/" target="_blank">View more</a>
+    </figcaption>
+  </figure>
+  <figure class="project">
+    <img src="./assets/static_layout3.PNG" alt="..."/>
+    <figcaption>
+      <div>
+        <h2>Static Layout</h2>
+        <p>A static recreation of a ElevenFifty's landing page using HTML AND CSS</p>
+      </div>
+      <a href="#">View more</a>
+    </figcaption>
+  </figure>
+  <figure class="project">
+    <img src="./assets/api_2_2.PNG" alt="img1"/>
+    <figcaption>
+      <div>
+        <h2>Air Visual API </h2>
+        <p>Local daily weather and air quality data retrieved from AirVisual API using Javascript, CSS, and HTML </p>
+      </div>
+      <a href="https://api-challenge-2-aj.web.app/" target="_blank">View more</a>
+    </figcaption>
+  </figure>
+</div>
+<!--styling inspo from xx@codepen-->
+</section>
+
+<!-- contact -->
+<section id="contact">
+  <div id = "contactMe" class= "container p-5">
+    <div class="row100">
+      <h2>get in touch.</h2>
+        <form action="https://formspree.io/mknqerwz" method="POST">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="_repyto" placeholder=" email address">
+            </div>
+          </div>
+          <div class="col">
+          <div class="inputBox">
+            <textarea name="message" placeholder="message"></textarea>
+          </div>
+          <div>
+          <div class="col">
+          <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+</div>
+</section>
+
+<section id="contact1">
+<footer>
+  <div class="footer">
+    <h1></h1>
+    <div class ="media">
+      <ul>
+        <li><a href="https://github.com/amberjanzen" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://github.com/amberjanzen" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://github.com/amberjanzen" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/amberjanzen" target="_blank"><i class="fab fa-behance"></i></a></li>
+        <li><a href="https://github.com/amberjanzen" target="_blank"><i class="fab fa-codepen"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</footer>
+<section>
+
+    <!-- Bootstrap Script Tags-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--my javascript tag-->
     <script src ="main.js"></script>
 </body>
 </html>

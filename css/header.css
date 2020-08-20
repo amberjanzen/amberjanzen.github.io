@@ -1,0 +1,15 @@
+.jumbotron {
+    background-color: transparent;
+    font-family: var(--font-three);
+    background-size: cover;
+    color: black;
+    text-align: left;
+    line-height: 50px;
+    font-size: 50px;
+}
+
+.h1 display-4{
+    font-family: var(--font-three);
+    line-height: 50px;
+    font-size: 50px;
+}

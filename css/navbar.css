@@ -1,0 +1,28 @@
+#nav-content{
+    margin-left: 70%;
+    color:black;
+    position: fixed;
+    z-index:1;
+    padding-top: 15px;
+
+}
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand{
+    color:black;
+
+}
+
+.navbar-Nav ul{
+    color:black;
+}
+
+#nav {
+    color:black;
+}
+
+#nav-item{
+    color:black;
+}
